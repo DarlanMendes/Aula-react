@@ -34,3 +34,8 @@ const posts = [
 ]
 ```
 ### Você deve renderizar esses posts de modo que, se tiverem pelo menos um comentário, esse comentário deverá ser exibido. Se houver mais de um comentário, os comentários serão exibidos em forma de lista. Se houver um banner, ele deve ser exibido no card; caso contrário, somente o texto do card deverá ser exibido.
+
+## Parte 02 - useState e useEffect (Hooks)
+
+### Nesse exercício você irá aplicar os conceitos explanados em aula em um mini-app. Nessa aplicação iremos simular o contador de items de um cardápio. O figma do app está disponível no link: https://www.figma.com/file/7ldnCpOUJ38f6DvCQRdCO1/IREDEFOOD?type=design&node-id=0%3A1&mode=design&t=aLphoXTr5gbNFwag-1
+Ao clicar em adicionar ou subtruir um item, um contador de items (carrinho) deve ser exibido com o total de itens adicionados e o contador de items do card do produto deve ser modificado.Para isso, utilize um estado para o total de items adicionados e um estado para exibir os items no card do produto. Utilize o useEffect para verificar as mudanças de estado.
